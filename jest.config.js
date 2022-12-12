@@ -6,7 +6,7 @@ module.exports = {
   collectCoverageFrom: ['rootDir/src/**/*.ts'],
   coverageDirectory: 'coverage',
   testEnvironment: 'node',
-  trnasform: {
+  transform: {
     '.+\\.ts$': 'ts-jest'
   }
 }
